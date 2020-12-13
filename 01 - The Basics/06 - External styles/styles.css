@@ -36,6 +36,10 @@ body {
   line-height: 1.4;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 .section {
   margin-bottom: 20px;
 }
