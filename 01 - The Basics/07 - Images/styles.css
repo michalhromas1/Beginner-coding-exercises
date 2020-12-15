@@ -64,3 +64,13 @@ img {
 .last-car {
   margin-bottom: 0;
 }
+
+.main-image {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.gallery .image-wrapper {
+  width: 350px;
+  margin-bottom: 10px;
+}
