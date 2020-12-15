@@ -47,3 +47,20 @@ body {
 .back-link {
   margin-bottom: 20px;
 }
+
+img {
+  max-width: 100%;
+}
+
+.car {
+  margin-bottom: 30px;
+}
+
+.car .image-wrapper {
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.last-car {
+  margin-bottom: 0;
+}
