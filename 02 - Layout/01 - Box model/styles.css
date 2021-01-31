@@ -76,6 +76,12 @@ img {
   background: lightyellow;
   height: 300px;
   width: 450px;
+  border-radius: 10px;
+}
+
+.homepage-item img {
+  border-radius: 10px;
+  border: 1px solid #333;
 }
 
 .homepage-item .image-wrapper {
