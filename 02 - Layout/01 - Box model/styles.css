@@ -102,7 +102,7 @@ img {
 
 .main-image {
   margin-bottom: 20px;
-  border: 20px solid lightgray;
+  border: 20px dashed lightgray;
 }
 
 .main-image img {
