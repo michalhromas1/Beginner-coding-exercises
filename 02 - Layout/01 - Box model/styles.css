@@ -4,8 +4,10 @@
 
 body {
   font-family: Arial;
-  padding: 0;
-  margin: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .blue {
@@ -14,7 +16,6 @@ body {
 
 .main-title {
   font-size: 22px;
-  /* margin-bottom: 20px; */
   font-weight: 700;
   background: #0c5fa6;
   color: #fff;
@@ -67,20 +68,26 @@ img {
 }
 
 .homepage-item {
-  margin-bottom: 12px;
-  border: 1px solid #333333;
+  margin-bottom: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #333;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
   background: lightyellow;
   height: 300px;
-  width: 450px;
-  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
 }
 
 .homepage-item img {
-  border-radius: 10px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   border: 1px solid #333;
 }
 
@@ -96,6 +103,10 @@ img {
 .main-image {
   margin-bottom: 20px;
   border: 20px solid lightgray;
+}
+
+.main-image img {
+  display: block;
 }
 
 .gallery .image-wrapper {
