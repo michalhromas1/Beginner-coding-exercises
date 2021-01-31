@@ -80,7 +80,19 @@ img {
   height: 300px;
   width: 250px;
   height: 250px;
+  border-radius: 20px;
+}
+
+.star {
+  background: #333;
+  color: #fff;
+  height: 30px;
+  width: 30px;
   border-radius: 100%;
+  padding-top: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-bottom: 5px;
 }
 
 .homepage-item img {
