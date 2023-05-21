@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+}
+
+.blue {
+  color: #005da8;
+}
+
+.main-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.link-wrapper {
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #005da8;
+  font-size: 15px;
+}
+
+.title {
+  font-weight: 700;
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  color: #484848;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.back-link {
+  margin-bottom: 20px;
+}
