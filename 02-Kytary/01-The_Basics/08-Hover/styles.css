@@ -2,23 +2,11 @@ body {
   font-family: Arial;
 }
 
-.blue {
-  color: #005da8;
-}
-
 .main-title {
   font-size: 22px;
   margin-bottom: 20px;
   font-weight: 700;
-}
-
-.link-wrapper {
-  margin-bottom: 10px;
-}
-
-.link {
-  color: #005da8;
-  font-size: 15px;
+  color: #bc2f27;
 }
 
 .title {
@@ -26,6 +14,10 @@ body {
   color: #333333;
   font-size: 18px;
   margin-bottom: 10px;
+}
+
+.title-large {
+  font-size: 22px;
 }
 
 .paragraph {
@@ -36,12 +28,28 @@ body {
   line-height: 1.4;
 }
 
-.bold {
-  font-weight: 700;
-}
-
 .section {
   margin-bottom: 20px;
+}
+
+.guitar-type {
+  margin-bottom: 20px;
+}
+
+.guitar-type-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: #bc2f27;
+}
+
+.link-wrapper {
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #bc2f27;
+  font-size: 15px;
 }
 
 .back-link {
@@ -49,7 +57,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-height: 100%;
   max-width: 100%;
 }
 
@@ -59,7 +67,7 @@ img {
 
 .homepage-item .image-wrapper {
   margin-bottom: 5px;
-  width: 200px;
+  height: 150px;
 }
 
 .last-homepage-item {
@@ -67,20 +75,20 @@ img {
 }
 
 .main-image {
-  width: 500px;
+  height: 200px;
   margin-bottom: 20px;
 }
 
 .gallery .image-wrapper {
-  width: 350px;
+  height: 120px;
   margin-bottom: 10px;
 }
 
 .homepage-main-image {
-  width: 1000px;
+  height: 250px;
 }
 
-a:hover {
+.link:hover {
   color: #333333;
   text-decoration: none;
 }
