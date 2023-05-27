@@ -97,9 +97,8 @@ body {
   right: 2px;
 }
 
-.homepage-item p {
-  margin-bottom: 0;
-  margin-top: 10px;
+.homepage-item .link {
+  margin-bottom: 10px;
 }
 
 .homepage-item img {
@@ -175,7 +174,7 @@ body {
 }
 
 .scroll-up {
-  padding: 20px;
+  padding: 17px 20px;
   border-radius: 100%;
   font-size: 20px;
   font-weight: 700;
@@ -191,4 +190,8 @@ body {
 .scroll-up:hover {
   color: white;
   background: #a3241e;
+}
+
+.last-footer-section {
+  margin-bottom: 0;
 }
