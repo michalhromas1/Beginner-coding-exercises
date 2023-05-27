@@ -172,11 +172,14 @@ body {
   margin-bottom: 0;
   padding-top: 20px;
   padding-bottom: 20px;
+  display: flex;
+  gap: 80px;
 }
 
 .footer-section {
   padding-left: 0;
   padding-right: 0;
+  margin-bottom: 0;
 }
 
 .footer-section .title {
@@ -224,8 +227,4 @@ body {
 .scroll-up:hover {
   color: white;
   background: #a3241e;
-}
-
-.last-footer-section {
-  margin-bottom: 0;
 }
