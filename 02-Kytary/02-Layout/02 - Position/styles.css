@@ -8,17 +8,13 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 0;
-  padding-top: 56px;
-}
-
-.blue {
-  color: #005da8;
+  padding-top: 55px;
 }
 
 .main-title {
   font-size: 22px;
   font-weight: 700;
-  background: #0c5fa6;
+  background: #bc2f27;
   color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -30,20 +26,15 @@ body {
   z-index: 10;
 }
 
-.link-wrapper {
-  margin-bottom: 10px;
-}
-
-.link {
-  color: #005da8;
-  font-size: 15px;
-}
-
 .title {
   font-weight: 700;
   color: #333333;
   font-size: 18px;
   margin-bottom: 10px;
+}
+
+.title-large {
+  font-size: 22px;
 }
 
 .paragraph {
@@ -54,14 +45,19 @@ body {
   line-height: 1.4;
 }
 
-.bold {
-  font-weight: 700;
-}
-
 .section {
   margin-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.link-wrapper {
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #bc2f27;
+  font-size: 15px;
 }
 
 .back-link {
@@ -82,10 +78,8 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   background: lightyellow;
-  height: 300px;
-  width: 250px;
-  height: 250px;
   border-radius: 20px;
+  width: 205px;
 }
 
 .star {
@@ -97,10 +91,9 @@ img {
   padding-top: 3px;
   padding-left: 7px;
   padding-right: 7px;
-  margin-bottom: 5px;
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 10px;
+  right: 2px;
 }
 
 .homepage-item img {
@@ -113,7 +106,7 @@ img {
 
 .homepage-item .image-wrapper {
   margin-bottom: 5px;
-  width: 200px;
+  width: 160px;
   position: relative;
 }
 
@@ -121,21 +114,16 @@ img {
   margin-bottom: 0;
 }
 
-.main-image {
+.homepage-main-image {
   margin-bottom: 20px;
   border: 20px dashed lightgray;
 }
 
-.main-image img {
+.homepage-main-image img {
   display: block;
 }
 
-.gallery .image-wrapper {
-  width: 350px;
-  margin-bottom: 10px;
-}
-
-a:hover {
+.link:hover {
   color: #333333;
   text-decoration: none;
 }
@@ -144,21 +132,26 @@ a:hover {
   filter: grayscale(100%);
 }
 
-.contact-section {
+.footer {
   background: #333;
   margin-bottom: 0;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.contact-section .title {
+.footer-section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer-section .title {
   color: #fff;
 }
 
-.contact-section a {
+.footer-section .link {
   color: #fff;
 }
 
-.mb-0 {
+.last-contact-link {
   margin-bottom: 0;
 }
