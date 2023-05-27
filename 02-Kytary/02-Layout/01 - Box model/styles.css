@@ -46,17 +46,6 @@ body {
   padding-right: 20px;
 }
 
-.guitar-type {
-  margin-bottom: 20px;
-}
-
-.guitar-type-title {
-  font-size: 15px;
-  font-weight: 600;
-  margin-bottom: 7px;
-  color: #bc2f27;
-}
-
 .link-wrapper {
   margin-bottom: 10px;
 }
@@ -71,12 +60,11 @@ body {
 }
 
 img {
-  max-height: 100%;
   max-width: 100%;
 }
 
 .homepage-item {
-  margin-bottom: 15px; /* was 30 */
+  margin-bottom: 15px;
   border-width: 1px;
   border-style: solid;
   border-color: #333;
@@ -85,8 +73,8 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   background: lightyellow;
-  width: 250px;
   border-radius: 20px;
+  width: 205px;
 }
 
 .star {
@@ -111,30 +99,20 @@ img {
 
 .homepage-item .image-wrapper {
   margin-bottom: 5px;
-  height: 150px;
+  width: 160px;
 }
 
 .last-homepage-item {
   margin-bottom: 0;
 }
 
-.main-image {
-  /* height: 200px; */
+.homepage-main-image {
   margin-bottom: 20px;
   border: 20px dashed lightgray;
 }
 
-.main-image img {
+.homepage-main-image img {
   display: block;
-}
-
-.gallery .image-wrapper {
-  height: 120px;
-  margin-bottom: 10px;
-}
-
-.homepage-main-image {
-  height: 250px;
 }
 
 .link:hover {
