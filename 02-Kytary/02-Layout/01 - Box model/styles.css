@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.main-title {
+  font-size: 22px;
+  font-weight: 700;
+  background: #bc2f27;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title {
+  font-weight: 700;
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.title-large {
+  font-size: 22px;
+}
+
+.paragraph {
+  color: #484848;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.link-wrapper {
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #bc2f27;
+  font-size: 15px;
+}
+
+.back-link {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.homepage-item {
+  margin-bottom: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: lightyellow;
+  border-radius: 20px;
+  width: 205px;
+}
+
+.star {
+  background: #333;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  padding-top: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-bottom: 5px;
+}
+
+.homepage-item img {
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 1px solid #333;
+}
+
+.homepage-item .image-wrapper {
+  margin-bottom: 5px;
+  width: 160px;
+}
+
+.last-homepage-item {
+  margin-bottom: 0;
+}
+
+.homepage-main-image {
+  margin-bottom: 20px;
+  border: 20px dashed lightgray;
+}
+
+.homepage-main-image img {
+  display: block;
+}
+
+.link:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+.homepage-item img:hover {
+  filter: grayscale(100%);
+}
+
+.footer {
+  background: #333;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer-section .title {
+  color: #fff;
+}
+
+.footer-section .link {
+  color: #fff;
+}
+
+.last-contact-link {
+  margin-bottom: 0;
+}
+
+.last-footer-section {
+  margin-bottom: 0;
+}
