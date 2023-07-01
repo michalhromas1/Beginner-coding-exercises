@@ -1,0 +1,11 @@
+body {
+  background: var(--c-page);
+  padding-left: var(--s-page-offset-x);
+  padding-right: var(--s-page-offset-x);
+  font-size: var(--fs-text);
+  font-family: var(--ff-text);
+}
+
+.content-wrapper {
+  background: var(--c-white);
+}

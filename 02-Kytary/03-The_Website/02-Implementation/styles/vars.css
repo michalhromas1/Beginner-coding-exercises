@@ -1,0 +1,17 @@
+:root {
+  /* RAW */
+  --ff-1: 'Open Sans', sans-serif;
+
+  --fs-13: 1.3rem;
+
+  --c-white: hsl(0, 0%, 100%);
+  --c-gray-1: hsl(0, 0%, 95%);
+
+  /* MEANINGFUL */
+  --ff-text: var(--ff-1);
+  --fs-text: var(--fs-13);
+  --s-page-offset-x: 20%;
+
+  --c-page: var(--c-gray-1);
+  --c-content: var(--c-white);
+}
