@@ -6,6 +6,7 @@
 
   --c-white: hsl(0, 0%, 100%);
   --c-gray-1: hsl(0, 0%, 95%);
+  --c-green: hsl(149, 36%, 49%);
 
   /* MEANINGFUL */
   --ff-text: var(--ff-1);
@@ -14,4 +15,5 @@
 
   --c-page: var(--c-gray-1);
   --c-content: var(--c-white);
+  --c-primary: var(--c-green);
 }

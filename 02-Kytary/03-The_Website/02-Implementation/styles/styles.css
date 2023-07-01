@@ -9,3 +9,43 @@ body {
 .content-wrapper {
   background: var(--c-white);
 }
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.main-header-logo {
+  max-height: 7.4rem;
+}
+
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  align-items: flex-end;
+  justify-content: center;
+  row-gap: 2px;
+  color: hsl(0, 0%, 43%);
+  font-size: 1.2rem;
+}
+
+.main-contact-phone {
+  display: flex;
+  align-items: center;
+  color: var(--c-primary);
+  font-weight: 700;
+  font-size: 2rem;
+  column-gap: 0.5rem;
+}
+
+.main-contact-phone-icon {
+  font-size: 2.4rem;
+}
+
+.main-header-content {
+  padding-top: 1.6rem;
+}
