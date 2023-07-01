@@ -11,7 +11,7 @@
   /* MEANINGFUL */
   --ff-text: var(--ff-1);
   --fs-text: var(--fs-13);
-  --s-page-offset-x: 20%;
+  --s-page-offset-x: 8%;
 
   --c-page: var(--c-gray-1);
   --c-content: var(--c-white);
