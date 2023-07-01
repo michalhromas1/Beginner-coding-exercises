@@ -49,3 +49,8 @@ body {
 .main-header-content {
   padding-top: 1.6rem;
 }
+
+.content-wrapper {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
