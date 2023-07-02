@@ -37,7 +37,7 @@ body {
   display: flex;
   align-items: center;
   color: var(--c-primary);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2rem;
   column-gap: 0.5rem;
 }
@@ -375,8 +375,9 @@ body {
 
 .products-gallery {
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .product {
@@ -386,6 +387,10 @@ body {
   border-bottom: var(--border-base);
   color: #555;
   position: relative;
+  height: 40rem;
+  max-height: 40rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-image {
@@ -463,12 +468,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  font-weight: 600;
   margin-top: auto;
 }
 
 .product-compare-icon {
   font-size: 1.5rem;
-  font-weight: 600;
   cursor: pointer;
 }
 
