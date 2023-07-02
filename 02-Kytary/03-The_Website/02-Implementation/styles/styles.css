@@ -373,10 +373,24 @@ body {
   border-left: var(--border-base);
 }
 
+.products-gallery {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 .product {
+  flex-basis: 25%;
+  padding: 2rem;
+  border-right: var(--border-base);
+  border-bottom: var(--border-base);
 }
 
 .product-image {
+  max-height: 17.5rem;
+  height: 17.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .product-title {
