@@ -125,3 +125,43 @@ body {
 .breadcrumbs > *:last-child {
   color: hsl(0, 0%, 23%);
 }
+
+.stores-section {
+  padding: 2.5rem 1.5rem;
+}
+
+.stores-section-title {
+  font-size: 1.6rem;
+  color: #777;
+}
+
+.stores,
+.store + .store {
+  margin-top: 1.5rem;
+}
+
+.store {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  column-gap: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.store-icon {
+  color: rgb(192 54 54);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.store-content > * + * {
+  margin-top: 0.25rem;
+}
+
+.store-title {
+  font-size: 1.2rem;
+}
+
+.store-time {
+  color: rgb(192 54 54);
+}
