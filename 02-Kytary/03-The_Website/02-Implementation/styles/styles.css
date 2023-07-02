@@ -195,9 +195,9 @@ body {
   justify-content: space-evenly;
   gap: 3rem;
   flex-wrap: wrap;
-  margin-top: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .product-subcategories > * {
@@ -214,4 +214,59 @@ body {
   max-height: 14rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.products-sorting {
+  background: rgb(238 238 238);
+  border-top: var(--border-base);
+  border-bottom: var(--border-base);
+}
+
+.products-sorting-tabs {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 3.8rem;
+}
+
+.products-sorting-tabs > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-right: var(--border-base);
+  height: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.products-sorting-tabs > *:hover {
+  background: hsl(0, 0%, 97%);
+  transition: background-color 0.15s ease-in-out;
+}
+
+.products-sorting-tabs > *.active {
+  background-color: white;
+  position: relative;
+  cursor: default;
+}
+
+.products-sorting-tabs > *.active:hover {
+  background-color: white;
+}
+
+.products-sorting-tabs > .active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1px;
+  background: white;
+}
+
+.product-sorting-icon {
+  font-weight: 700;
+  font-size: 1.4rem;
 }
