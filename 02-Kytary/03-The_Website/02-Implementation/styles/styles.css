@@ -372,3 +372,42 @@ body {
 .products-gallery-pagination > * + * {
   border-left: var(--border-base);
 }
+
+.product {
+}
+
+.product-image {
+}
+
+.product-title {
+}
+
+.product-category {
+}
+
+.product-purchase {
+}
+
+.product-purchase-content {
+}
+
+.product-purchase-price {
+}
+
+.product-purchase-price-old {
+}
+
+.product-purchase-stock {
+}
+
+.product-purchase-add-to-cart {
+}
+
+.product-compare {
+}
+
+.product-compare-icon {
+}
+
+.product-sale {
+}
