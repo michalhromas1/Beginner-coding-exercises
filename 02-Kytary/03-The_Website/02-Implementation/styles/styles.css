@@ -113,13 +113,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem;
-  color: hsl(0, 0%, 56%);
+  font-size: 1.2rem;
+  color: #777;
+  cursor: pointer;
+}
+
+.breadcrumbs > *:hover {
+  text-decoration: underline;
 }
 
 .breadcrumbs > *:first-child {
   border-left: none;
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.breadcrumbs > *:first-child:hover {
+  text-decoration: none;
 }
 
 .breadcrumbs > *:last-child {
