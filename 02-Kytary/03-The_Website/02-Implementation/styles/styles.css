@@ -302,3 +302,12 @@ body {
 .products-count {
   color: #777;
 }
+
+.main-footer {
+  color: #777;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  border-top: var(--border-base);
+  margin-top: 2rem;
+}
