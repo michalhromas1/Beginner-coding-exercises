@@ -193,20 +193,25 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
-  gap: 3rem;
   flex-wrap: wrap;
-  margin-top: 3.5rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .product-subcategories > * {
   text-align: center;
+  color: #777;
+  cursor: pointer;
+  padding: 1.5rem;
+}
+
+.product-subcategories > *:hover {
+  text-decoration: underline;
 }
 
 .product-subcategory-title {
   margin-top: 0.75rem;
-  color: #777;
 }
 
 .product-subcategory-img {
