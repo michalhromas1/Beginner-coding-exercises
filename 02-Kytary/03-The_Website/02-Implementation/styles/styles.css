@@ -175,3 +175,16 @@ body {
 .store-time {
   color: rgb(192 54 54);
 }
+
+.product-hero-section {
+  padding: 1.6rem;
+}
+
+.product-hero-title {
+  font-size: 2.3rem;
+}
+
+.product-hero-description {
+  margin-top: 1rem;
+  color: #777;
+}
