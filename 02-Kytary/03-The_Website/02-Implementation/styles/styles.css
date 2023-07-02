@@ -381,7 +381,7 @@ body {
 }
 
 .product {
-  flex-basis: 25%;
+  flex-basis: 20%;
   padding: 2rem;
   border-right: var(--border-base);
   border-bottom: var(--border-base);
@@ -403,7 +403,6 @@ body {
 
 .product-title {
   margin-top: 1rem;
-  text-transform: uppercase;
   font-weight: 600;
   font-size: 1.4rem;
   cursor: pointer;
